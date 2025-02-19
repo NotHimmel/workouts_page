@@ -5,12 +5,14 @@ const MAPBOX_TOKEN =
   // (please refer to https://github.com/yihong0618/running_page/issues/643#issuecomment-2042668580)
   'pk.eyJ1IjoiYmVuLTI5IiwiYSI6ImNrZ3Q4Ym9mMDBqMGYyeXFvODV2dWl6YzQifQ.gSKoWF-fMjhzU67TuDezJQ';
 const MUNICIPALITY_CITIES_ARR = [
-  '北京市',
-  '上海市',
+  '青岛市',
+  '大连市',
   '天津市',
   '重庆市',
   '香港特别行政区',
   '澳门特别行政区',
+  '北京市',
+  '上海市',
 ];
 const MAP_LAYER_LIST = [
   'road-label',
@@ -136,7 +138,7 @@ const red = 'rgb(255,0,0)';//大红色
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = green;
 export const RUN_COLOR = yellow;
-export const RIDE_COLOR = green;
+export const RIDE_COLOR = veryPeri;
 export const VIRTUAL_RIDE_COLOR = veryPeri;
 export const HIKE_COLOR = pink;
 export const SWIM_COLOR = gold;
